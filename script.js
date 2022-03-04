@@ -137,6 +137,7 @@ draw(10,10);
 const sprites = [];
 
 for (let i = 0; i < 20; i++) {                                  //cambiando i < 20 con altri valori se ne generato di più:
+    
     const x = Math.random() * (canvas.width - 2);               //creo valori random di x e y per creare sprites diversi e metterli in un array --> il valore dopo il -(meno) utilizza le dimensioni dell'oggetto creato per evitare che esca dal canvas (nell'esempio w e h = 2)
     const y = Math.random() * (canvas.height - 2);
 
